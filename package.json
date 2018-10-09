@@ -12,7 +12,9 @@
     "url": "git+https://github.com/staskjs/vue-slick.git"
   },
   "browserify": {
-    "transform": ["vueify"]
+    "transform": [
+      "vueify"
+    ]
   },
   "keywords": [
     "slick",
@@ -29,6 +31,6 @@
     "jquery": "*"
   },
   "dependencies": {
-    "slick-carousel": "^1.6.0"
+    "slick-carousel": "github:wishmaster2310/slick#dc2c2b4"
   }
 }
